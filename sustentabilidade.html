@@ -24,7 +24,7 @@
     <!-- CSS do projeto -->
     <link rel="stylesheet" href="css/sustentabilidade.css">
     <!--Javascript do projeto-->
-    <script src="/scripts/script.js"></script>
+    <script src="/js/script.js"></script>
     <!-- JavaScript Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -78,12 +78,16 @@
             <p class="apresentacao-conteudo-texto">A agricultura sustentável é aquela que respeita o meio ambiente, é justa para a sociedade e, também, economicamente viável. Ainda, deve garantir que as futuras gerações consigam suprir as suas próprias necessidades de produção e, claro, tenham qualidade de vida na Terra.</p>
             <h3>Alguns benefícios</h3>
             <ul>
-                <li> redução do desperdício;</li>
-                <li>otimização dos recursos naturais;</li>
-                <li>produção de alimentos mais saudáveis e seguros;</li>
-                <li>promoção do bem-estar social de consumidores e fornecedores;</li>
-                <li>melhora na imagem da empresa e do produtor frente o consumidor.</li>
+                <li class="beneficio">Redução do desperdício;</li>
+                <li class="beneficio">Otimização dos recursos naturais;</li>
+                <li class="beneficio">Produção de alimentos mais saudáveis e seguros;</li>
+                <li class="beneficio">Promoção do bem-estar social de consumidores e fornecedores;</li>
+                <li class="beneficio">Melhora na imagem da empresa e do produtor frente o consumidor.</li>
             </ul>
+            <label for="posicao">Posição</label>
+                <input type="number" id="numero" min="1" max="5">
+                <button onclick="escolher()">Escolher benefício</button>
+                <p><strong>Benefício escolhido:</strong><span id="resultado"></span></p>
         </section>
         <img src="/img/steven-weeks-dupfowqi6oi-unsplash.webp" width="665" height="460" alt="">
     </main> 
@@ -106,8 +110,6 @@
                     <li>Até 2030, dobrar a produtividade agrícola e a renda dos pequenos produtores de alimentos, particularmente das mulheres, povos indígenas, agricultores familiares, pastores e pescadores, inclusive por meio de acesso seguro e igual à terra, outros recursos produtivos e insumos, conhecimento, serviços financeiros, mercados e oportunidades de agregação de valor e de emprego não agrícola.</li>
                     <li>Até 2030, garantir sistemas sustentáveis de produção de alimentos e implementar práticas agrícolas resilientes, que aumentem a produtividade e a produção, que ajudem a manter os ecossistemas, que fortaleçam a capacidade de adaptação às mudanças climáticas, às condições meteorológicas extremas, secas, inundações e outros desastres, e que melhorem progressivamente a qualidade da terra e do solo.</li>
                     <li>Até 2020, manter a diversidade genética de sementes, plantas cultivadas, animais de criação e domesticados e suas respectivas espécies selvagens, inclusive por meio de bancos de sementes e plantas diversificados e bem geridos em nível nacional, regional e internacional, e garantir o acesso e a repartição justa e equitativa dos benefícios decorrentes da utilização dos recursos genéticos e conhecimentos tradicionais associados, como acordado internacionalmente</li>
-
-                    
                 </ul>
               </div>
               </div>
