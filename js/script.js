@@ -7,3 +7,4 @@ function escolher(){
     var beneficio = document.getElementsByClassName('beneficio')[num].innerHTML
     document.getElementById('resultado').innerHTML = beneficio
 }
+
