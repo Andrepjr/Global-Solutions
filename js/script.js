@@ -1,3 +1,7 @@
+function exibirMensagemDeBoasVindas() {
+    console.log("Bem-vindo ao nosso site!");
+  }
+
 function alerta() {
     alert("Você será redirecionado, tem certeza que deseja sair ?")
 }

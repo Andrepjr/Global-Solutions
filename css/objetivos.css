@@ -1,7 +1,7 @@
 * {
     font-family: 'Lato', sans-serif;
   }
-  
+
   .bg-primary-color {
     background-color: #fff;
   }
@@ -74,6 +74,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: white;
+    gap: 82px;
 }
 
 .apresentacao-conteudo{
@@ -220,3 +221,10 @@
     }
   
   }
+  @media(max-width:1000px){
+    .apresentacao{
+      flex-direction: column-reverse;
+    }
+
+}
+
